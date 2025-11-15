@@ -6,7 +6,7 @@ database:
   dbname: "mutualfunds"
 
 source:
-  csv_path: "data/mutual_fund.csv"
+  csv_path: "data/mutual_funds.csv"
   mf_list_url: "https://api.mfapi.in/mf"
   mf_detail_url_template: "https://api.mfapi.in/mf/{schemeCode}"
   mf_latest_url_template: "https://api.mfapi.in/mf/{schemeCode}/latest"
